@@ -52,6 +52,10 @@ header {
   color: $secondary-active-color;
 }
 
+.text-selected {
+  color: $selected-color;
+}
+
 main {
   @include fadeIn;
 
@@ -67,7 +71,7 @@ main {
       @include easeOut;
 
       &:hover {
-        color: $primary-active-color;
+        color: $selected-color;
       }
     }
   }
@@ -135,7 +139,7 @@ main {
 
     &:hover {
       opacity: 0.5;
-      border-color: $primary-active-color;
+      border-color: $selected-color;
       @include easeOut;
     }
   }
@@ -155,9 +159,9 @@ main {
     @include easeOut;
 
     &:hover {
-      color: $primary-active-color;
+      color: set-text-color($primary-active-color);
       span {
-        color: $selected-color;
+        color: set-text-color($selected-color);
       }
     }
   }
@@ -170,7 +174,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem;
   &:hover {
-    background: $primary-active-color;
+    background: $selected-color;
     color: set-text-color($primary-active-color);
   }
 }

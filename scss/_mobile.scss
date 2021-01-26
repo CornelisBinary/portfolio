@@ -7,6 +7,10 @@
 
 // Desktops & Laptops
 @include mediaLg {
+  .lg-heading {
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -83,7 +87,7 @@
 
     .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem;
+      font-size: 4rem;
     }
     .boxes {
       div {
