@@ -159,9 +159,9 @@ main {
     @include easeOut;
 
     &:hover {
-      color: set-text-color($primary-active-color);
+      color: $primary-active-color;
       span {
-        color: set-text-color($selected-color);
+        color: $selected-color;
       }
     }
   }
