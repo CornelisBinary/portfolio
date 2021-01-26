@@ -157,6 +157,9 @@ header {
 .text-secondary {
   color: #ccc4bc; }
 
+.text-selected {
+  color: #15a97d; }
+
 main {
   animation-name: fade-in;
   animation-fill-mode: fill;
@@ -169,7 +172,7 @@ main {
       padding: 0.4rem;
       transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #00c0a3; }
+        color: #15a97d; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -212,7 +215,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #00c0a3;
+      border-color: #15a97d;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -236,7 +239,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #00c0a3;
+    background: #15a97d;
     color: #fff; }
 
 .btn-dark {
@@ -259,6 +262,9 @@ main {
     grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
+  .lg-heading {
+    line-height: 1;
+    margin-bottom: 1rem; }
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
@@ -306,7 +312,7 @@ main {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem; }
+      font-size: 4rem; }
     main .boxes div {
       font-size: 1.5rem; }
   .projects {
