@@ -157,7 +157,7 @@ main {
     &:hover {
       color: $primary-active-color;
       span {
-        color: $primary-active-color;
+        color: $selected-color;
       }
     }
   }
