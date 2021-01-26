@@ -1,12 +1,14 @@
 # Build a Portfolio
-I have build a responsive website that will display images. links and description.
-This is my first portfolio project.
+
+My responsive portfolio website,
+used Brad Traversy tutorial on the web,
+customized it to my preference.
 
 # Files Included
 
-* index.html
-* main.css in css folder
-* Gruntfile.js
-* img folder
-* dist folder
-* package.json
+- index.html
+- main.css in css folder
+- Gruntfile.js
+- img folder
+- dist folder
+- package.json
