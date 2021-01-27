@@ -339,11 +339,11 @@ main {
       border: solid 3px #ccc4bc;
       width: 150px;
       height: 150px; }
-  ul {
-    list-style-type: none; }
   .about-info {
     grid-template-areas: "bioimage" "bio" "pros" "cons" "address" "jobs";
     grid-template-columns: 1fr; }
+    .about-info ul {
+      list-style-type: none; }
     .about-info .address {
       grid-template-areas: "title" "contact" "project";
       grid-template-columns: 1fr; }
