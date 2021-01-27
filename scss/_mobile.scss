@@ -61,19 +61,36 @@
     }
   }
 
+  ul {
+    list-style-type: none;
+  }
+
   .about-info {
     grid-template-areas:
       "bioimage"
       "bio"
-      "job1"
-      "job2"
-      "job3";
+      "pros"
+      "cons"
+      "address"
+      "jobs";
 
     grid-template-columns: 1fr;
-  }
 
-  .projects {
-    grid-template-columns: repeat(2, 1fr);
+    .address {
+      grid-template-areas:
+        "title"
+        "contact"
+        "project";
+      grid-template-columns: 1fr;
+    }
+
+    .jobs {
+      grid-template-areas:
+        "title"
+        "job1"
+        "job2";
+      grid-template-columns: 1fr;
+    }
   }
 }
 
@@ -94,9 +111,5 @@
         font-size: 1.5rem;
       }
     }
-  }
-
-  .projects {
-    grid-template-columns: 1fr;
   }
 }
