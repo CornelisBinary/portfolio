@@ -349,7 +349,9 @@ main {
       grid-template-columns: 1fr; }
     .about-info .jobs {
       grid-template-areas: "title" "job1" "job2";
-      grid-template-columns: 1fr; } }
+      grid-template-columns: 1fr; }
+  .projects {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -360,4 +362,6 @@ main {
       margin-top: 1rem;
       font-size: 4rem; }
     main .boxes div {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem; }
+  .projects {
+    grid-template-columns: 1fr; } }
