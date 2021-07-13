@@ -63,7 +63,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/portrait.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -218,7 +218,7 @@ main {
     grid-area: jobs;
     font-size: 1.5rem;
     display: grid;
-    grid-template-areas: "title title" "job1 job2";
+    grid-template-areas: "title title" "job1 job2" "job3 job3";
     grid-template-columns: repeat(2, 1fr); }
     .about-info .jobs .job {
       background: #6c6c6c;
@@ -235,6 +235,8 @@ main {
       grid-area: job1; }
     .about-info .jobs .job-2 {
       grid-area: job2; }
+    .about-info .jobs .job-3 {
+      grid-area: job3; }
 
 .projects {
   display: grid;
@@ -249,7 +251,7 @@ main {
       transition: all 0.5s ease-out; }
   .projects .project-info {
     background: #6c6c6c;
-    min-height: 150px;
+    min-height: 225px;
     padding: 0.5rem;
     color: #fff;
     border-bottom: #ccc4bc 5px solid;
@@ -331,7 +333,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/portrait.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
